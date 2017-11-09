@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FabForce - SalesForce Blognotes</title>
+        
+    </head>
+    <body>
+            <main></main>
+    
+    <script src="app.js" type="text/jsx">
+        "use strict";
+        
+        var HelloWorld = React.createClass({
+        
+          render: function() {
+            return React.createElement("h1", null, "Hello World!");
+          },
+        
+        });
+        
+        var mainElement = document.querySelector("main");
+        
+        ReactDOM.render(React.createElement(HelloWorld), mainElement);
+    </script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+   
+</body>
+</html>
